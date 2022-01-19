@@ -10,4 +10,5 @@ serde = "1.0.132"
 tide = "0.16.0"
 async-std = { version = "1.10.0", features = ["attributes"] }
 notes-demo = { path = "../notes-demo" }
+dotenv = "0.15.0"
 
