@@ -1129,6 +1129,7 @@ dependencies = [
 [[package]]
 name = "notes-demo"
 version = "0.1.0"
+source = "git+https://github.com/rora-rs/note-demo?branch=main#1bd80c66555b013d287985fba85b51ad33a5165c"
 dependencies = [
  "askama",
  "dotenv",

@@ -9,6 +9,6 @@ edition = "2021"
 serde = "1.0.132"
 tide = "0.16.0"
 async-std = { version = "1.10.0", features = ["attributes"] }
-notes-demo = { path = "../notes-demo" }
+notes-demo = { git = "https://github.com/rora-rs/note-demo", branch = "main" }
 dotenv = "0.15.0"
 
