@@ -6,7 +6,7 @@ async fn main() -> tide::Result<()> {
     dotenv().ok();
 
     let server = notes_demo::create();
-    let port = dotenv::var("port")?;
-    server.listen(format!("127.0.0.1:{}", port)).await?;
+    let port = dotenv::var("PORT")?;
+    server.listen(format!("0.0.0.0:{}", port)).await?;
     Ok(())
 }
