@@ -1206,7 +1206,7 @@ dependencies = [
 [[package]]
 name = "notes-demo"
 version = "0.1.0"
-source = "git+https://github.com/rora-rs/note-demo?branch=main#0583c2cc960438eea7259c811ff65f08d3f5e769"
+source = "git+https://github.com/rora-rs/note-demo?branch=main#50a643ba345c0b00cb191a3753dc1f9894c566ee"
 dependencies = [
  "askama",
  "pulldown-cmark",
